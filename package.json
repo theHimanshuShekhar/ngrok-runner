@@ -1,0 +1,15 @@
+{
+  "name": "ngrok-runner",
+  "version": "1.0.0",
+  "description": "systemd service for ngrok",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "theHimanshuShekhar",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^9.4.1",
+    "ngrok": "^3.3.0"
+  }
+}

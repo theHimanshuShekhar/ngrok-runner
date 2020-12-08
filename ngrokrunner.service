@@ -1,0 +1,14 @@
+[Unit]
+Description=start ngrok and update url to database
+Documentation=https://example.com
+After=network.target
+
+[Service]
+Environment=NODE_PORT=3001
+Type=simple
+User=minecraft
+ExecStart=/usr/bin/node /home/ubuntu/hello_env.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
